@@ -1,0 +1,15 @@
+<header class="page">
+	<div class="logo">
+		<a href="{{ site.baseurl }}/">
+			<img src="{{site.baseurl}}/img/logo.svg">
+		</a>
+	</div>
+	<nav class="masthead-nav">
+		<a href="{{site.baseurl}}/">Início</a>
+		{% for page in site.pages | sort: "weight" %}
+			{% if page.title %}
+				<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+			{% endif %}
+		{% endfor %}
+	</nav>
+</header>

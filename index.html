@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="page">
+  {% if site.posts.size == 0 %}
+    <h2>Nenhum posts encontrado.</h2>
+  {% else %}
+    {% for post in site.posts %}
+      <div class="content-list">
+        <div class="list-item {% if forloop.first == true %}featured{% endif %}">
+          {% if forloop.first == true %}
+          <div class="thumbnail">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <img src="{{ site.baseurl }}/img/thumb-sobriedade.jpg" alt="o-que-é-sobriedade-espiritual">
+            </a>
+          </div>
+          {% endif %}
+          <div class="content-item">
+            <div class="list-post-date">
+              <time>{{ post.date | date_to_string }}</time>
+            </div>
+            <h2 class="list-post-title">
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            {% if forloop.first == true %}
+              <p class="excerpt">
+                Voodoo bridge sentient drone geodesic claymore mine narrative systemic construct pistol soul-delay rebar into meta-tiger-team skyscraper. Refrigerator modem denim boat papier-mache kanji ndustrial grade render-farm wristwatch footage disposable. Bicycle artisanal tattoo convenience store euro-pop rebar cyber-futurity carbon long-chain hydrocarbons refrigerator...
+              </p>
+              <a class="continue-lendo" href="{{ post.url | prepend: site.baseurl }}">Continue lendo</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>
