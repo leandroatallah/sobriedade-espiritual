@@ -234,7 +234,7 @@ header{
     }
 
     .logo img{
-        width: 185px;
+        width: 225px;
     }
 }
 
@@ -290,6 +290,7 @@ h2.list-post-title a{
     font-size: 22px;
     color: #777;
     text-decoration: none;
+    vertical-align: top;
 
     &:link{ color: #777; }
     &:hover{ color: #777; }
@@ -379,10 +380,11 @@ h1.post-title{
 }
 @media screen and (max-width: 950px){
     header{
-        .page{
-            flex-direction: column;
-            margin-bottom: 0;
-        }
+        margin-bottom: 0;
+        
+        // .page{
+        //     flex-direction: column;
+        // }
 
         .logo{
             margin-bottom: 20px;

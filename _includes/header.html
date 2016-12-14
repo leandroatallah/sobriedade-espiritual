@@ -1,11 +1,12 @@
 <header>
 	<div class="page">
+		<a id="menu-btn"><img src="{{site.baseurl}}/img/menu.svg"></a>
 		<div class="logo">
 			<a href="{{ site.baseurl }}/">
 				<img src="{{site.baseurl}}/img/logo.svg">
 			</a>
 		</div>
-		<nav class="masthead-nav">
+		<nav class="masthead-nav" style="display: none">
 			<a href="{{site.baseurl}}/">Início</a>
 			{% for page in site.pages | sort: "weight" %}
 				{% if page.title %}
@@ -13,5 +14,6 @@
 				{% endif %}
 			{% endfor %}
 		</nav>
+		<a id="search-btn"><img src="{{site.baseurl}}/img/search.svg"></a>
 	</div>
 </header>
