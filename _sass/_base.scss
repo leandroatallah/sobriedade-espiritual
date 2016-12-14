@@ -241,6 +241,10 @@ header{
         background: url("../img/menu.svg") center no-repeat;
         width: 32px;
         height: 32px;
+
+        &.close{
+            background: url("../img/close-btn.svg") center no-repeat;
+        }
     }
     a.search-btn{
         background: url("../img/search.svg") center no-repeat;
