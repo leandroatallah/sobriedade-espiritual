@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Sobriedade Espiritual"
-date:   2016-09-23 13:56:20 -0300
+title:  "Sobriedade Espiritual 2"
+date:   2016-08-23 13:56:20 -0300
 categories: jekyll update
 ---
 

@@ -217,19 +217,23 @@ body{
 }
 
 .page{
-    max-width: 100%;
-    width: 1024px;
+    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
+}
+
+.container{
+    min-height: 500px;
 }
 
 header{
     padding: 20px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ddd;
     margin-bottom: 40px;
 
     .page{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
 
@@ -258,7 +262,7 @@ footer{
     font-size: 14px;
     font-weight: 400;
     color: #aaa;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -296,72 +300,54 @@ nav{
 }
 
 // LIST POST
-.list-post-date time{
-    font-size: 16px;
-    font-weight: 300;
-    color: #aaa;
-}
-h2.list-post-title a{
-    font-size: 22px;
-    color: #777;
-    text-decoration: none;
-    vertical-align: top;
+.content-list{
+    border-top: 1px solid #ddd;
 
-    &:link{ color: #777; }
-    &:hover{ color: #777; }
-    &:visited{ color: #777; }
+    &:first-child{
+        border-top: none;
+    }
+}
+.list-post-date time{
+    font-size: 14px;
+    font-weight: 300;
+    color: #777;
+}
+h2.list-post-title{
+    margin-bottom: 0;
+
+    a{
+        font-size: 28px;
+        color: #777;
+        text-decoration: none;
+        vertical-align: top;
+
+        &:link{ color: #777; }
+        &:hover{ color: #777; }
+        &:visited{ color: #777; }
+    }
 }
 p.excerpt{
     font-size: 16px;
-    color: #aaa;
+    color: #777;
     font-weight: 300;
+    margin: 8px 0;
 }
 a.continue-lendo{
-    font-size: 16px;
+    font-size: 18px;
     color: #777;
     text-decoration: none;
     display: block;
-    text-align: right;
+    text-align: center;
 
     &:link{ color: #777; }
-    &:hover{ color: #777; }
+    &:hover{ color: #777; text-decoration: underline; }
     &:visited{ color: #777; }
 }
 
 .list-item{
-    
-    &.featured{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 40px;
-
-        h2.list-post-title a{
-            font-size: 32px;
-        }
-
-        .content-item{
-            width: 55%;
-            display: inline-flex;
-            flex-direction: column;
-            justify-content: space-around;
-            border-top: none;
-            padding: 0;
-        }
-    }
-
     .content-item{
-        border-top: 1px solid #eee;
         box-sizing: border-box;
         padding: 20px 0;
-    }
-
-    .thumbnail{
-        width: 40%;
-        text-align: center;
-
-        img{
-            max-width: 100%;
-        }
     }
 }
 
@@ -406,19 +392,6 @@ h1.post-title{
         }
     }
     .list-item{
-        .content-item{
-            width: 100%;
-            padding: 20px;
-        }
-    }
-    .list-item.featured{
-        flex-direction: column;
-        margin-bottom: 0;
-
-        .thumbnail{
-            width: 100%;
-            margin-bottom: 20px;
-        }
         .content-item{
             width: 100%;
             padding: 20px;

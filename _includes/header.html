@@ -1,6 +1,6 @@
 <header>
 	<div class="page">
-		<a class="menu-btn" onclick="menuBtn()"></a>
+		<a class="menu-btn" onclick="menuBtn()" style="display: none"></a>
 		<div class="logo">
 			<a href="{{ site.baseurl }}/">
 				<img src="{{site.baseurl}}/img/logo.svg">
@@ -14,9 +14,6 @@
 				{% endif %}
 			{% endfor %}
 		</nav>
-		<a class="search-btn"></a>
+		<a class="search-btn" style="display: none"></a>
 	</div>
 </header>
-<script>
-	    var btn = document.getElementById("menu-btn").setAttribute("class", "teste"); 
-</script>
