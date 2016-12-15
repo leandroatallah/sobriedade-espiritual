@@ -3,6 +3,10 @@ layout: default
 ---
 
 <div class="page">
+  <!-- <video width="800" height="188" autoplay>
+    <source src="{{ site.baseurl }}/img/sobriedade-video.mp4"  type="video/mp4">
+    Your browser does not support the video tag.
+  </video> -->
   {% if site.posts.size == 0 %}
     <h2>Nenhum posts encontrado.</h2>
   {% else %}
@@ -19,8 +23,10 @@ layout: default
               <p class="excerpt">
                 {{ post.excerpt | remove: '<p>' | remove: '</p>' }}(...)
               </p>
+              <a class="continue-lendo" href="{{ post.url | prepend: site.baseurl }}">Continue lendo</a>
           </div>
         </div>
+        {% if forloop.last == false %}<hr>{% endif %}
       </div>
     {% endfor %}
   {% endif %}
