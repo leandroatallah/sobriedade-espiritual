@@ -35,7 +35,7 @@ Pare de correria e somente se aquiete e saiba que Ele é Deus. Cultive o jardim 
 ---
 
 ## Sugestão de música ##
-### Quero conhecer Jesus - Alessandro Vilas Boas ###
+Quero conhecer Jesus - Alessandro Vilas Boas
 Ouça no [Youtube](https://www.youtube.com/watch?v=oR-s7OIFNC8)
 
 ---
