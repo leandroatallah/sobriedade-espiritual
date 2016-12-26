@@ -13,11 +13,13 @@ A representação da ceia indicava o sofrimento de Cristo para trazer a redenç�
 Existe algo muito mais profundo nisso tudo. Cristo é o noivo e sua igreja a sua noiva. Se olharmos por esta visão, que é descrita através das românticas canções do livro dos cânticos, perceberemos o quão bela foi esta atitude.
 
 A noiva diz para o noivo:
+
 >"Beije-me ele com os beijos da sua boca; porque melhor é o seu amor do que o vinho" (Cantares 1.2)
 
 A noiva anseia a expressão de amor do noivo.
 
 E o noivo diz para a noiva:
+
 >"Quão doce é o teu amor, minha irmã, noiva minha! quanto melhor é o teu amor do que o vinho! e o aroma dos teus ungüentos do que o de toda sorte de especiarias!" (Cantares 4.10)
 
 Salomão, que representa Cristo como o noivo da igreja, também compara o amor de sua noiva dizendo ser melhor do que o vinho.
@@ -29,9 +31,11 @@ Outro grande ponto a se destacar do amor de Cristo pela sua noiva é que ele lut
 Mas o amor do Senhor foi capaz de se lançar entre os espinhos por amor ao seu lírio:
 
 O noivo diz para a noiva:
+
 >"Qual o lírio entre os espinhos, tal é a minha amada entre as filhas" (Cantares 4.10)
 
 E a noiva diz para o noivo:
+
 >"O meu amado é meu, e eu sou dele; ele apascenta o seu rebanho entre os lírios" (Cantares 2.16)
 
 O amor de Yeshua, o noivo, por sua igreja, a noiva, é o mais belo e sublime sentimento expresso através de atitudes e belas palavras. Ele foi enviado pelo seu Pai para lutar entre os espinhos, derramar seu sangue, abrir mão de sua alegria por um tempo e assim resgata-la para o mais belo matrimônio, a eternidade.
