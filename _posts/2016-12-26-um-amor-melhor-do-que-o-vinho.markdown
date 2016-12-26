@@ -3,6 +3,7 @@ layout: post
 title:  "Um amor melhor do que o vinho"
 date:   2016-12-26 14:00:20 -0300
 categories: jekyll update
+comments: true
 ---
 
 Poucos dias antes de ser crucificado, Yeshua reuniu seus discípulos para que realizassem a santa ceia. Durante a cerimônia e após partir o pão, ele tomou o cálice e o compartilhou com seus discípulos:
