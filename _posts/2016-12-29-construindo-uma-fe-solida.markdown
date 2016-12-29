@@ -6,7 +6,7 @@ categories: jekyll update
 comments: true
 ---
 
->"...A fé sem obras é morta" ( Tg 2.27)
+"...A fé sem obras é morta" ( Tg 2.27)
 
 Fé, resumidamente, é ter crença em algo que não se vê. Não preciso ter fé naquilo que vejo, pois meus sentidos já me convencem de que isso é real.
 
