@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Somos influenciáveis"
-date:   2017-01-09 23:30:00 -0300
+date:   2017-06-07 23:30:00 -0300
 categories: jekyll update
 comments: true
 ---
